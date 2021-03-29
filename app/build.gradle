@@ -38,7 +38,7 @@ android {
 
 dependencies {
     implementation "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
-    implementation "androidx.activity.activity-ktx:$rootProject.activityVersion"
+    implementation "androidx.activity:activity-ktx:$rootProject.activityVersion"
 
     implementation "androidx.room:room-ktx:$rootProject.roomVersion"
     kapt "androidx.room:room-compiler:$rootProject.roomVersion"
